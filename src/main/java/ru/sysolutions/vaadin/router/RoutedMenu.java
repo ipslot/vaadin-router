@@ -1,4 +1,4 @@
-package ru.sysolutions.vaadin;
+package ru.sysolutions.vaadin.router;
 
 import com.vaadin.server.Resource;
 import com.vaadin.ui.MenuBar;
