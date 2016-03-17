@@ -5,6 +5,10 @@ import com.vaadin.ui.MenuBar;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * Created by kenstavichusva on 16.03.16.
+ * Smart menu, which selects (make checked) items by view paths.
+ */
 public class RoutedMenu extends MenuBar {
 
     public MenuItem addItem(Resource icon, String title, String description,

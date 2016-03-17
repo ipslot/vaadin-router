@@ -14,7 +14,11 @@ import ru.sysolutions.vaadin.auth.SecuredView;
 import java.util.function.BooleanSupplier;
 import java.util.function.Consumer;
 
-
+/**
+ * Created by kenstavichusva on 16.03.16.
+ * Use registerPath methods to add menu items.
+ * Restricted for current user items makes hidden automatically.
+ */
 public class Router {
     protected Navigator navigator;
     protected RoutedMenu menu;
