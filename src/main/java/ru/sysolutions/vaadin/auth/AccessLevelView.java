@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Created by kenstavichusva on 16.03.16.
- * Your Vaadin views should implement this method, if you wants use @SecuredView.
+ * Your Vaadin views should implement this interface, if you wants use @SecuredView.
  */
 public interface AccessLevelView {
     default boolean hasAccessLevel(AccessLevel level) {
